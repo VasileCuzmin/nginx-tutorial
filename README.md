@@ -60,7 +60,7 @@ You can generate self-signed certs using OpenSSL:
 
 ```bash
 mkdir certs
-openssl req -x509 -newkey rsa:4096 -nodes -out certs/server.crt -keyout certs/server.key -days 365
+openssl req -x509 -newkey rsa:4096 -nodes -out nginx-selfsigned.crt -keyout nginx-selfsigned.key -days 365
 ```
 
 Update `nginx.conf` to use `ssl_certificate` and `ssl_certificate_key`.
