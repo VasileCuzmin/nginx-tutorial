@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Environment files
+.env
+.env.*
+
+# SSL certificates
+*.key
+*.crt
+*.pem
+certs/
+
+# Docker
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+# Nginx
+nginx/*.conf~
+
+# Build artifacts
+dist/
+build/
+tmp/
+.cache/
+.DS_Store
+
+# VSCode
+.vscode/
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
