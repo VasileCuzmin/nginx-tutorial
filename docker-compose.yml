@@ -99,6 +99,7 @@ services:
       - "8080:80"      # expose Nginx load balancer on host port 8080
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx-certs/:/etc/nginx/certs
     depends_on:
       - server1
       - server2
